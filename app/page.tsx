@@ -5,8 +5,11 @@ export default function Home() {
       {/* <ModelViewer path={"model/AnimatedCube/AnimatedCube.gltf"}/> */}
       {/* <ModelViewer path={"dionosour/scene.gltf"}/> */}
       <ModelViewer
+        // path={
+        //   "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb"
+        // }
         path={
-          "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Models/master/2.0/CesiumMilkTruck/glTF-Binary/CesiumMilkTruck.glb"
+          'model/Cesium_Milk_Truck/CesiumMilkTruck.glb'
         }
       />
     </main>
